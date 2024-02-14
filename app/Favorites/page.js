@@ -15,13 +15,12 @@ export const getFaoriteModels = () => {
     });
 };
 
-const page = () => {
+const Favorite = () => {
   const [favorites, setFavorites] = useState([]);
   useEffect(() => {
     getFaoriteModels().then((res) => {
       setFavorites(res);
     });
-    console.log(favorites);
   }, []);
 
   return (
@@ -66,4 +65,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Favorite;

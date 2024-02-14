@@ -59,7 +59,7 @@ const ModelDetail = ({ params }) => {
             <div className="text-white">{modelDetail.title}</div>
           </Title>
           {modelDetail.details.map((item) => (
-            <div className="px-10 py-4">
+            <div className="px-10 py-4" key={item.heading}>
               <div
                 key={item.heading}
                 className={item.paragraph.length <= 50 ? "ml-2" : "ml-6"}
