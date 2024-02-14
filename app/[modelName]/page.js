@@ -12,8 +12,7 @@ import {
   Divider,
 } from "antd";
 const { Title } = Typography;
-
-export const getModelsDetail = () => {
+const getModelsDetail = () => {
   const url = "https://af280542c34745cf98ad3badc832d675.api.mockbin.io/";
   return axios(url, {
     method: "get",

@@ -13,7 +13,7 @@ const getBase64 = (file) =>
     reader.onerror = (error) => reject(error);
   });
 
-export const getModelsData = () => {
+const getModelsData = () => {
   const url = "https://7c6fe8aacabc4459b721d3e9ddd8fc30.api.mockbin.io/";
   return axios(url, {
     method: "get",
