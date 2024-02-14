@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Title from "antd/es/typography/Title";
-export const getFaoriteModels = () => {
+const getFaoriteModels = () => {
   const url = "https://589fe003c27b4f44b4845c3bf4f050c8.api.mockbin.io/";
   return axios(url, {
     method: "get",
