@@ -30,6 +30,27 @@ const nextConfig = {
         protocol: "https",
         hostname: "cdn.arstechnica.net",
       },
+      {
+        hostname: "images.ctfassets.net",
+      },
+      {
+        hostname: "kstatic.googleusercontent.com",
+      },
+      {
+        hostname: "lh3.googleusercontent.com",
+      },
+      {
+        hostname: "run.mocky.io",
+      },
+      {
+        hostname: "images.moneycontrol.com",
+      },
+      {
+        hostname: "dce0qyjkutl4h.cloudfront.net",
+      },
+      {
+        hostname: "paularoloye.com",
+      },
     ],
   },
 };
